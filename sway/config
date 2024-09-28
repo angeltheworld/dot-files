@@ -1,0 +1,10 @@
+# My config files, do not change the order in which these files
+# are being included
+include environment.conf
+include workspaces.conf
+include assignments.conf
+
+# Obligatory drop downs
+include /etc/sway/config.d/*
+
+# Full reference: https://man.archlinux.org/man/sway.5
