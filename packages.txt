@@ -1,5 +1,8 @@
 # Sway + GUI packages
 sway
+swaylock
+swayidle
+swaybg
 fuzzel
 waybar
 
