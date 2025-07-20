@@ -14,3 +14,14 @@ mkdir $HOME/.config -p
 subdir=$(ls -l | grep '^d' | cut -d ' ' -f 9)
 cp -r $subdir $HOME/.config
 echo 'Configuration files ready :)'
+
+# Wallpaper
+echo 'Installing wallpaper...'
+mkdir -p $HOME/.config/wallpapers
+curl -O https://i.imgur.com/OIU8OL9.jpeg
+if [ -f "OIU8OL9.jpeg" ]; then
+    mv OIU8OL9.jpeg $HOME/.config/wallpapers/choerry.jpeg
+    echo "Wallpaper ready :)"
+else
+    echo "The specified wallpaper couldn't be downloaded... :("
+fi
