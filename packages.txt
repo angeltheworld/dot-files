@@ -1,0 +1,20 @@
+# Sway + GUI packages
+sway
+fuzzel
+waybar
+
+# Environment tools (brightness, screenshot)
+slurp
+grim
+wl-clipboard
+
+# Audio related packages
+pulseaudio
+pulseaudio-bluetooth
+pulseaudio-alsa
+pamixer
+
+# Bluetooth packages
+bluez
+bluez-utils
+blueman
