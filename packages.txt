@@ -1,6 +1,7 @@
 # Sway + GUI packages
 sway
 swaylock
+waylock
 swayidle
 swaybg
 fuzzel
@@ -11,6 +12,7 @@ foot
 slurp
 grim
 wl-clipboard
+imv
 dunst
 brightnessctl
 
