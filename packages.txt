@@ -5,6 +5,7 @@ swayidle
 swaybg
 fuzzel
 waybar
+foot
 
 # Environment tools (brightness, screenshot, notifications)
 slurp
