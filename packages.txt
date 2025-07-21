@@ -6,10 +6,12 @@ swaybg
 fuzzel
 waybar
 
-# Environment tools (brightness, screenshot)
+# Environment tools (brightness, screenshot, notifications)
 slurp
 grim
 wl-clipboard
+dunst
+brightnessctl
 
 # Audio related packages
 pulseaudio
