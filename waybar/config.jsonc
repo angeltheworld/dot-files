@@ -95,12 +95,13 @@
     },
 
     "custom/power": {
-        "format" : "⏻ ",
+        "format" : "⏻",
 		"tooltip": false,
 		"menu": "on-click",
 		"menu-file": "/home/angel/.config/waybar/power_menu.xml", // Menu file in resources folder
 		"menu-actions": {
 			"shutdown": "shutdown --now",
+			"lock": "swaylock -f",
 			"reboot": "reboot",
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
