@@ -1,17 +1,18 @@
 # Sway + GUI packages
 sway
 swaylock
-waylock
 swayidle
 swaybg
 fuzzel
 waybar
 foot
+xdg-user-dirs
 
 # Environment tools (brightness, screenshot, notifications)
 slurp
 grim
 wl-clipboard
+jq
 imv
 dunst
 brightnessctl
