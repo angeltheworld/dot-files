@@ -1,5 +1,4 @@
-# My config files, do not change the order in which these files
-# are being included
+# Config files for sway
 include environment.conf
 include workspaces.conf
 include assignments.conf
