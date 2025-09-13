@@ -23,7 +23,7 @@ tooltip label {
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 10px 10px;
     background: transparent;
     color: white;
     border-bottom: 3px solid transparent;

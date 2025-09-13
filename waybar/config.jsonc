@@ -4,9 +4,13 @@
     "height": 30,
     "modules-center": ["clock"],
     "modules-left": ["custom/power", "sway/workspaces"],
-    "modules-right": ["battery", "pulseaudio", "backlight", "network", "bluetooth", "idle_inhibitor"],
+    "modules-right": ["battery", "custom/separator", "pulseaudio", "custom/separator", "backlight", "custom/separator", "network", "custom/separator", "bluetooth", "custom/separator", "idle_inhibitor"],
     "sway/window": {
         "max-length": 50
+    },
+
+    "custom/separator": {
+    	"format": " | "
     },
 
     "battery": {
@@ -28,11 +32,11 @@
             "3": ["eDP-1"],
             "4": ["eDP-1"],
             "5": ["eDP-1"],
-            "6": ["DP-1"],
-            "7": ["DP-1"],
-            "8": ["DP-1"],
-            "9": ["DP-1"],
-            "10": ["DP-1"]
+            "6": ["DP-1", "eDP-1"],
+            "7": ["DP-1", "eDP-1"],
+            "8": ["DP-1", "eDP-1"],
+            "9": ["DP-1", "eDP-1"],
+            "10": ["DP-1", "eDP-1"]
         }
     },
 
