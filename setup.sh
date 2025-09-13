@@ -18,9 +18,10 @@ echo 'Configuration files ready :)'
 
 # Wallpapers
 echo 'Installing wallpapers...'
+mkdir $HOME/.config/wallpapers
 while IFS= read -r line; do
         url=$(echo $line | cut -d ' ' -f 1)
         name=$(echo $line | cut -d ' ' -f 2)
-        wget $url -O $name
+        wget $url -O $HOME/.config/wallpapers/$name
 done < wallpapers.txt
 echo 'Wallpapers ready :)'
