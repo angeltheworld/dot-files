@@ -7,7 +7,10 @@ fuzzel
 waybar
 foot
 xdg-user-dirs
+
+# Fonts
 otf-font-awesome
+noto-fonts-cjk
 
 # Environment tools (brightness, screenshot, notifications)
 slurp
