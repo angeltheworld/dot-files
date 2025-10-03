@@ -43,7 +43,7 @@
     "pulseaudio": {
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon}",
-        "format-muted": "",
+        "format-muted": "{volume}% ",
         "format-icons": {
             // "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
             // "alsa_output.pci-0000_00_1f.3.analog-stereo-muted": "",
@@ -54,7 +54,7 @@
             "phone-muted": "",
             "portable": "",
             "car": "",
-            "default": ["", ""]
+            "default": ["", "", ""]
         },
         "scroll-step": 1,
         "on-click": "pavucontrol",
@@ -64,7 +64,7 @@
     "backlight": {
         "device": "intel_backlight",
         "format": "{percent}% {icon}",
-        "format-icons": ["", ""]
+        "format-icons": ["", "", " "]
     },
 
     "network": {
@@ -99,7 +99,7 @@
     },
 
     "custom/power": {
-        "format" : "⏻",
+        "format" : "", //⏻
 		"tooltip": false,
 		"menu": "on-click",
 		"menu-file": "/home/angel/.config/waybar/power_menu.xml", // Menu file in resources folder
