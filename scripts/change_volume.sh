@@ -27,18 +27,10 @@ volume=$(pamixer --get-volume)
 
 # Verify if the system is muted or not to choose an icon
 if [ $is_muted = "false" ]; then
-    if [ $volume = "0" ]; then
-        icon="audio-volume-muted"
-    elif [ $volume -lt "33" ]; then
-        icon="audio-volume-low"
-    elif [ $volume -lt "66" ]; then
-        icon="audio-volume-medium"
-    else
-        icon="audio-volume-high"
-    fi
+    message="Volume"
 else
-    icon="audio-volume-muted"
+    message="Volume [muted]"
 fi
 
 # Throws notification
-dunstify -r 999 -t 1200 "Volume" -h int:value:$volume -i $icon
+dunstify -r 999 -t 1200 $message -h int:value:$volume

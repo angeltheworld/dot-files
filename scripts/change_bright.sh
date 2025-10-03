@@ -17,15 +17,5 @@ fi
 # Getting brightness level percentage
 brightness=$(brightnessctl i | grep -oE '[0-9]{1,3}%' | sed 's/%//')
 
-# Determines which icon to use
-if [ $brightness -lt "33" ]; then
-	icon="brightness-low-symbolic"
-elif [ $brightness -lt "66" ]; then
-	icon="brightness-medium-symbolic"
-else
-	icon="brightness-high-symbolic"
-fi
-
-dunstify -r 998 -t 1200 "Brightness" -h int:value:$brightness -i $icon
-
-
+# Throws notification
+dunstify -r 998 -t 1200 "Brightness" -h int:value:$brightness
