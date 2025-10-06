@@ -7,6 +7,7 @@ fuzzel
 waybar
 foot
 xdg-user-dirs
+xorg-xwayland
 
 # Fonts
 otf-font-awesome
